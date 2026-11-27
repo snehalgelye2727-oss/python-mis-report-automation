@@ -1,24 +1,31 @@
-# Ewards Points Redeemed Report Automation
+# Python-Based Ewards Points Redeemed Report Automation
 
-## Overview
-A Python-based MIS reporting project that processes loyalty points redemption data and generates automated Excel reports.
+## Project Overview
+This project automates outlet-wise Ewards Points Redeemed reporting using Python, Pandas, and OpenPyXL. It processes customer transaction data to summarize redeemed points and rank outlets based on redemption activity.
 
-## Technologies Used
+## Business Analysis
+- **Outlet-Wise Summary:** Calculates total Ewards points redeemed by each restaurant.
+- **Outlet Ranking:** Ranks outlets from highest to lowest points redeemed.
+- **Invoice-Level Deduplication:** Removes repeated invoice entries before aggregation to avoid counting the same redeemed points multiple times.
+- **Redemption Overview:** Calculates the grand total of redeemed points across outlets.
+
+## Key Features
+- Restaurant-wise points aggregation.
+- Ranking of outlets by redeemed points.
+- Invoice-level duplicate handling.
+- Top 10 outlets chart.
+- Conditional formatting for comparison.
+- Raw data sheet.
+
+## Tools Used
 - Python
 - Pandas
 - OpenPyXL
 
-## Key Features
-- CSV data processing using Pandas
-- Invoice-level duplicate handling
-- Restaurant-wise points redeemed summary
-- Ranking based on redeemed points
-- Automated Excel report generation
-- Conditional formatting and Top 10 bar chart
-- Raw data sheet included in the output workbook
+## Output
+Generates a formatted Excel workbook containing:
+1. Ewards Points Redeemed Summary
+2. Raw Data
 
-## Purpose
-To automate loyalty points redemption reporting and simplify data analysis.
-
-## Note
-This is a portfolio implementation and does not include confidential company data or proprietary business information.
+## Conclusion
+This automation provides a clear overview of outlet-wise loyalty point redemption activity and supports monitoring of customer rewards usage across restaurants.
